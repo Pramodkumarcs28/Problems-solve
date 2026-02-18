@@ -1,0 +1,12 @@
+k = 3 
+arr = [3, 9, 12, 16, 20]
+for i in range(len(arr)):
+    if arr[i] <= k:
+        arr[i] = arr[i] + k
+    else:
+        arr[i] = arr[i] - k
+
+arr.sort()
+a=arr[len(arr)-1]-arr[0]
+print(a)
+    
